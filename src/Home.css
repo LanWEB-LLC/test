@@ -1,0 +1,46 @@
+.home {
+	background-color: white;
+	margin: 0 0 0 0;
+}
+
+.home_row {
+	width: 68%;
+	display: flex;
+	text-align: center;
+	align: center;
+	padding-left: 16%;
+	padding-right: 16%;
+	padding-top: 30px;
+}
+
+.home_pageOne {
+	height: 700px;
+	text-align: center;
+}
+
+.home_pageOne_description {
+	padding-top: 100px;
+	float: top;
+}
+
+.lineOne {
+	font-size: 40px;
+	color: red;
+	margin-bottom: 20px;
+}
+
+.lineTwo {
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+}
+
+.home_solution {
+	float: inherit;
+	background-color: yellow;
+	width: 45%;
+	height: 300px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
