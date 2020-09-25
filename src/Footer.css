@@ -48,4 +48,5 @@
 .footer_logo {
 	font-size: 60px;
 	text-decoration: none;
+	user-select:none;
 }
