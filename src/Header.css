@@ -16,6 +16,7 @@
 	padding-top: 15px;
 	padding-left: 20px;
 	float: left;
+	user-select:none;
 }
 
 .header_list {
