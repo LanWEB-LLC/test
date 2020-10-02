@@ -24,7 +24,7 @@ function Header_Web() {
 						<span>Gaming</span>
 					</Link>
 					
-					<Link to="/" className="header_link">
+					<Link to="/Contact" className="header_link">
 						<span>Contact</span>
 					</Link>
 				</div>
