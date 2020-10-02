@@ -1,0 +1,87 @@
+.home {
+	background-color: white;
+	margin: 0 0 0 0;
+}
+
+.home_row {
+	width: 40%;
+	display: block;
+	align-items: center;
+	text-align: left;
+	align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.home_flex {
+	display: flex;
+	align-items: center;
+}
+
+.home_left {
+	float: left;
+}
+
+.home_title {
+	display: block;
+	margin: 0 0 10px 0;
+	font-size: 20px;
+	text-align: left;
+}
+
+.home_label {
+	display: block;
+	float: right;
+	width: 50%;
+}
+
+.home_input {
+	width: 96%;
+	display: block;
+	height: 40px;
+	padding: 10px 10px;
+	font-size: 20px;
+	background-color: #F0F0F0;
+	border: 1px solid #D0D0D0;
+}
+
+.home_inputArea {
+	width: 96%;
+	display: block;
+	height: 120px;
+	padding: 10px 10px;
+	font-size: 20px;
+	background-color: #F0F0F0;
+	border: 1px solid #D0D0D0;
+}
+
+.home_span {
+	width: 96%;
+	margin-top: 8px;
+	margin-bottom: auto;
+	margin-left: 0;
+	margin-right: auto;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	color: gray;
+}
+
+.home_btn {
+	height: 50px;
+	width: 100px;
+	border: none;
+	background-color: black;
+	color: white;
+	letter-spacing: 3px;
+}
+
+.home_padding_top {
+	padding-top: 60px;
+}
+
+.home_padding_bottom {
+	padding-bottom: 60px;
+}
