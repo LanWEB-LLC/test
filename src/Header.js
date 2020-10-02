@@ -16,15 +16,15 @@ function Header() {
 			
 			<div className="header_list">
 				<div className="header_nav">
-					<Link to="/" className="header_link">
+					<Link to="/Web" className="header_link">
 						<span>Web</span>
 					</Link>
 
-					<Link to="/" className="header_link">
+					<Link to="/Gaming" className="header_link">
 						<span>Gaming</span>
 					</Link>
 					
-					<Link to="/" className="header_link">
+					<Link to="/Contact" className="header_link">
 						<span>Contact</span>
 					</Link>
 				</div>
