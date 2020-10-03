@@ -1,0 +1,76 @@
+.header {
+	background-color: black;
+	align-items: center;
+	top: 0;
+	height: 500px;
+	z-index: 100;
+}
+
+.without_decoration {
+	text-decoration: none;
+}
+
+.header_logo {
+	font-size: 60px;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-left: 20px;
+	float: left;
+	user-select:none;
+}
+
+.header_list {
+	height: 100px;
+	position: inherit;
+	margin-top: 50px;
+	top: 0;
+	right: 0;
+	float: right;
+}
+
+.header_nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header_link {
+	color: gray;
+	text-decoration: none;
+	margin: 0 50px 0 50px;
+	font-size: 20px;
+}
+
+.header_title {
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform:translate(-50%,-50%);
+}
+
+.LineOne {
+	font-size: 50px;
+	text-align: center;
+}
+
+.LineTwo {
+	font-size: 30px;
+	text-align: center;
+}
+
+@keyframes fadeInBottom {
+	from {
+		opacity: 0;
+		transform: translate(-50%,0);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%,-50%);
+	}
+}
+
+.fadeIn {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInBottom;
+}
