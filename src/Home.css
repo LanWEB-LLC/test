@@ -35,12 +35,22 @@
 	font-size: 20px;
 }
 
-.home_solution {
-	float: inherit;
+.home_solution_left {
+	display: flex;
+	float: left;
 	background-color: yellow;
 	width: 45%;
 	height: 300px;
-	align: center;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.home_solution_right {
+	display: flex;
+	float: right;
+	background-color: yellow;
+	width: 45%;
+	height: 300px;
+	margin-left: 0;
+	margin-right: 0;
 }
