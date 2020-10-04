@@ -10,8 +10,8 @@ function Home() {
 					<p className="lineTwo">We cover everything from enterprise-grade web services to completely custom game development services — with a sprinkle of social and brand management, too.</p>
 				</div>
 				<div className="home_row">
-					<div className="home_solution">Web</div>
-					<div className="home_solution">Gaming</div>
+					<div className="home_solution_left">Web</div>
+					<div className="home_solution_right">Gaming</div>
 				</div>
 			</div>
 		</div>
