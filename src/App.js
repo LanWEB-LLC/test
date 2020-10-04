@@ -8,6 +8,8 @@ import Header_Web from './Header_Web';
 import Web from './Web';
 import Header_Gaming from './Header_Gaming';
 import Gaming from './Gaming';
+import Header_Contact from './Header_Contact';
+import MyForm from './Contact';
 
 function App() {
 	return (
@@ -22,6 +24,11 @@ function App() {
 					<Route path="/Gaming">
 						<Header_Gaming />
 						<Gaming />
+						<Footer />
+					</Route>
+					<Route path="/Contact">
+						<Header_Contact />
+						<MyForm />
 						<Footer />
 					</Route>
 					<Route path="/">
